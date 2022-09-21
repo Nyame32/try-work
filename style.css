@@ -50,10 +50,13 @@ header{
 }
 .download{
     color: white;
-    background: rgb(71, 60, 218);
+    position: absolute;
+    background: #71C0D4;
     border-radius: 20px;
     font-size: 13px;
-    
+    width: 193px;
+    height: 58px;
+
 }
 .download span{
     color: lightblue;
