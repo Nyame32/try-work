@@ -8,6 +8,13 @@
     grid-template-areas: "header" "main" "footer";
     overflow: hidden;
 }
+.logo{
+    position: absolute;
+    width: 260px;
+    height: 98px;
+    left: 580.72px;
+    top: 67.2px;
+}
 header{
     display: flex;
     flex-flow: column nowrap;
@@ -38,35 +45,52 @@ header{
     align-items: center;
     justify-content: center;
 }
+.chat{
+    font-size: 64px;
+    font-weight: 900;
+    
+}
 .nice-text-1 h1{
     font-size: 50px;
     text-align: center;
 }
 .bless{
-    font-size: 80%;
+    font-size: 18px;
+    font-style: normal;
     text-align: center;
     margin-bottom: 5px;
+    font-weight: 500px;
 
 }
 .download{
     color: white;
-    position: absolute;
     background: #71C0D4;
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 29px;
+    font-size: 16px;
     width: 193px;
     height: 58px;
+    font-weight: 900;
+    line-height: 26px;
+    font-style: normal;
+
 
 }
 .download span{
     color: lightblue;
 }
 
+
 .space{
     color: white;
-    background: rgb(215, 81, 241);
-    border-radius: 20px;
+    background: #b18bdd;
+    border-radius: 29px;
     font-size: 13px;
+    width: 139px;
+    height: 58px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    
 }
 .left-image{
     display: none;
@@ -118,12 +142,14 @@ main{
     width: 500px;
 }
 .color{
-    font-size: 13px;
+    font-size: 16px;
     font-family: sans-serif;
+    font-weight: 900;
     color: lightblue;
     margin-top: 70px;
     text-align: center;
     margin-bottom: 40px;
+
 
 }
 .big{
@@ -171,9 +197,16 @@ main{
 }
 .last{
     background-color: #855fb1;
-    width: auto;
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    color: #FAFAFA;
+
 }
 @media only screen and (min-width: 768px) {
     .cobb{
